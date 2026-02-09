@@ -1,4 +1,5 @@
-import { Header, Hero } from './components'
+import { Header,Hero, Features, MoreInformation,Testimonials,
+  } from './components'
 
 function App() {
 
@@ -22,6 +23,9 @@ function App() {
 
       <section className='bg-Navy-900 p-6'>
         <Hero />
+        <Features />
+        <MoreInformation />
+        <Testimonials />
       </section>
     </main>
   )
